@@ -61,16 +61,32 @@
   box-shadow: 0 6px 20px rgba(45, 80, 22, 0.4);
 }
 
-.hero-image {
-  text-align: center;
+.hero-images {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
 }
 
-.hero-image img {
+.image-column-left {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex: 1;
+}
+
+.image-column-right {
+  flex: 1;
+}
+
+.hero-images img {
   width: 100%;
-  max-width: 500px;
-  height: auto;
-  border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.hero-images img:hover {
+  transform: translateY(-5px);
 }
 
 @media (max-width: 768px) {

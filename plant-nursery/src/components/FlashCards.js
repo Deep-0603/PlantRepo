@@ -44,6 +44,7 @@ const FlashCards = () => {
   return (
     <section className="flashcards" id="plants">
       <div className="container">
+        <h2 className="section-heading">Our Plants</h2>
         <div className="cards-grid">
           {cards.map(card => (
             <div key={card.id} className="card">

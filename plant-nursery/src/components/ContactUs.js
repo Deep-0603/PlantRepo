@@ -10,14 +10,9 @@ const ContactUs = () => {
           <p className="company-subtitle">Farms and Nursery</p>
         </div>
         <div className="contact-info">
-          <div className="contact-line">
-            <strong>Address:</strong> 123 Green Valley Road, Garden District, Mumbai - 400001
-          </div>
-          <div className="contact-line">
-            <strong>Email:</strong> info@sugandhafarns.com | sales@sugandhafarns.com
-          </div>
-          <div className="contact-line">
-            <strong>Phone:</strong> +91 98765 43210 | +91 87654 32109
+          <div className="contact-box">
+            <p><strong>Address:</strong> 123 Green Valley Road, Garden District, Mumbai - 400001</p>
+            <p><strong>Phone:</strong> +91 98765 43210 | +91 87654 32109</p>
           </div>
         </div>
         <button className="contact-button">Get in Touch</button>

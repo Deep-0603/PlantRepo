@@ -5,17 +5,17 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      text: "Sugandha Farms provides the highest quality plants. Their service is exceptional and plants arrive in perfect condition. I highly recommend them for all your gardening needs.",
+      text: "Highest quality plants with exceptional service. Highly recommended!",
       name: "Priya Sharma"
     },
     {
       id: 2,
-      text: "Amazing variety of plants and excellent customer support. My garden has never looked better thanks to their healthy and beautiful plants. Will definitely order again!",
+      text: "Amazing variety and excellent support. My garden looks perfect!",
       name: "Raj Patel"
     },
     {
       id: 3,
-      text: "Professional service and top-quality nursery products. They helped me create the perfect indoor garden setup. The plants are thriving and my home looks amazing.",
+      text: "Professional service and top-quality products. Plants are thriving!",
       name: "Meera Singh"
     }
   ];

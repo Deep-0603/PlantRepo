@@ -15,8 +15,14 @@ const Home = () => {
           </p>
           <button className="hero-button">Explore Our Plants</button>
         </div>
-        <div className="hero-image">
-          <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&h=400&fit=crop" alt="Beautiful plants" />
+        <div className="hero-images">
+          <div className="image-column-left">
+            <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=300&h=200&fit=crop" alt="Beautiful plants" />
+            <img src="https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=300&h=200&fit=crop" alt="Garden view" />
+          </div>
+          <div className="image-column-right">
+            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=300&h=420&fit=crop" alt="Lush plants" />
+          </div>
         </div>
       </div>
     </section>
