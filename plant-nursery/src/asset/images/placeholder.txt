@@ -1,0 +1,29 @@
+PLACEHOLDER IMAGES
+
+Due to SSL/connection issues with downloading from Unsplash, placeholder files have been created.
+Please replace these with actual plant images:
+
+Home Images:
+- beautiful-plants.jpg
+- garden-view.jpg
+- lush-plants.jpg
+
+Category Images:
+- indoor-plants.jpg
+- flowering-plants.jpg
+- winter-plants.jpg
+- summer-plants.jpg
+- rainy-plants.jpg
+- outdoor-plants.jpg
+- tabletop-plants.jpg
+- grass.jpg
+
+Plant Images (by category):
+Indoor Plants: snake-plant.jpg, monstera.jpg, pothos.jpg, peace-lily.jpg, rubber-plant.jpg, zz-plant.jpg
+Flowering Plants: rose-bush.jpg, hibiscus.jpg, marigold.jpg, sunflower.jpg, dahlia.jpg, petunia.jpg
+Winter Plants: winter-jasmine.jpg, pansy.jpg, winter-cherry.jpg, cyclamen.jpg
+Summer Plants: bougainvillea.jpg, zinnia.jpg, portulaca.jpg, ixora.jpg
+Rainy Plants: begonia.jpg, caladium.jpg, impatiens.jpg, coleus.jpg
+Outdoor Plants: bonsai.jpg, palm-tree.jpg, croton.jpg, ficus.jpg
+Tabletop Plants: mini-cactus.jpg, small-fern.jpg, air-plant.jpg, mini-succulent.jpg
+Grass: bermuda-grass.jpg, zoysia-grass.jpg, st-augustine-grass.jpg, ornamental-grass.jpg

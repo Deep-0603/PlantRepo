@@ -2,6 +2,11 @@ import React from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import './Home.css';
 
+// Import local images
+import beautifulPlantsImg from '../asset/images/home/beautiful-plants.jpg';
+import gardenViewImg from '../asset/images/home/garden-view.jpg';
+import lushPlantsImg from '../asset/images/home/lush-plants.jpg';
+
 const Home = () => {
   const navigate = useNavigate();
   const location = useLocation();
@@ -38,11 +43,11 @@ const Home = () => {
         </div>
         <div className="hero-images">
           <div className="image-column-left">
-            <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=300&h=200&fit=crop" alt="Beautiful plants" />
-            <img src="https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=300&h=200&fit=crop" alt="Garden view" />
+            <img src={beautifulPlantsImg} alt="Beautiful plants" />
+            <img src={gardenViewImg} alt="Garden view" />
           </div>
           <div className="image-column-right">
-            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=300&h=420&fit=crop" alt="Lush plants" />
+            <img src={lushPlantsImg} alt="Lush plants" />
           </div>
         </div>
       </div>
