@@ -1,6 +1,6 @@
 .contact-us {
   padding: 4rem 0;
-  background-color: #ffffff;
+  background-color: #f0f8f0;
   text-align: center;
 }
 
@@ -34,18 +34,9 @@
 }
 
 .contact-box {
-  background: #f9f9f9;
-  padding: 2rem;
-  border-radius: 12px;
   font-size: 1.1rem;
   color: #333;
-  transition: transform 0.3s ease;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-}
-
-.contact-box:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  line-height: 1.6;
 }
 
 .contact-box p {

@@ -1,6 +1,6 @@
 .our-clients {
   padding: 4rem 0;
-  background-color: #e8f5e8;
+  background-color: #f0f8f0;
 }
 
 .container {
@@ -28,14 +28,15 @@
 .client-logo {
   background: white;
   border-radius: 8px;
-  padding: 1.5rem;
+  padding: 1rem;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  width: 100%;
-  max-width: 200px;
+  width: 180px;
+  height: 140px;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .client-logo:hover {
@@ -45,9 +46,15 @@
 
 .client-logo img {
   width: 100%;
-  height: auto;
-  max-height: 60px;
+  height: 100%;
   object-fit: contain;
+  object-position: center;
+  filter: grayscale(0.8);
+  transition: filter 0.3s ease;
+}
+
+.client-logo:hover img {
+  filter: grayscale(0);
 }
 
 @media (max-width: 768px) {
@@ -70,7 +77,9 @@
   }
 
   .client-logo {
-    max-width: 150px;
+    width: 150px;
+    height: 120px;
+    padding: 0.8rem;
   }
 }
 

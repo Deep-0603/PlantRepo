@@ -24,13 +24,14 @@ const ContactUs = () => {
     <section className="contact-us" id="contact">
       <div className="container">
         <div className="contact-header">
-          <h2 className="company-name">Sugandha</h2>
+          <h2 className="company-name">SUGANDHA</h2>
           <p className="company-subtitle">Farms and Nursery</p>
         </div>
         <div className="contact-info">
           <div className="contact-box">
-            <p><strong>Address:</strong> 123 Green Valley Road, Garden District, Mumbai - 400001</p>
-            <p><strong>Phone:</strong> +91 98765 43210 | +91 87654 32109</p>
+            <p><strong>Address:</strong> Maan Enclave Villl, near Gurukul, Khera Khurd-110082, Delhi </p>
+            <p><strong>Phone:</strong> +91 9876543210</p>
+            <p><strong>Email:</strong> info@sugandhafarms.com</p>
           </div>
         </div>
         <div className="buttons-container">

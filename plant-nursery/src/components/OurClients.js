@@ -1,37 +1,45 @@
 import React from 'react';
 import './OurClients.css';
 
+// Import client logos
+import stAngelLogo from '../asset/st angel.png';
+import maxFortLogo from '../asset/max fort.png';
+import cpwdLogo from '../asset/cpwd.jpg';
+import pwdLogo from '../asset/pwd.jpg';
+import ndmcLogo from '../asset/ndmc.png';
+import delhiUniversityLogo from '../asset/delhi university.jpg';
+
 const OurClients = () => {
   const clients = [
     {
       id: 1,
-      name: "Green Gardens Co.",
-      logo: "https://via.placeholder.com/150x80/4CAF50/white?text=GG"
+      name: "St Angel School",
+      logo: stAngelLogo
     },
     {
       id: 2,
-      name: "Nature's Best",
-      logo: "https://via.placeholder.com/150x80/8BC34A/white?text=NB"
+      name: "Max Fort",
+      logo: maxFortLogo
     },
     {
       id: 3,
-      name: "Botanical Paradise",
-      logo: "https://via.placeholder.com/150x80/9C27B0/white?text=BP"
+      name: "CPWD",
+      logo: cpwdLogo
     },
     {
       id: 4,
-      name: "Urban Jungle",
-      logo: "https://via.placeholder.com/150x80/FF9800/white?text=UJ"
+      name: "PWD Delhi",
+      logo: pwdLogo
     },
     {
       id: 5,
-      name: "Plant Haven",
-      logo: "https://via.placeholder.com/150x80/2196F3/white?text=PH"
+      name: "NDMC",
+      logo: ndmcLogo
     },
     {
       id: 6,
-      name: "Eco Garden",
-      logo: "https://via.placeholder.com/150x80/795548/white?text=EG"
+      name: "Delhi University",
+      logo: delhiUniversityLogo
     }
   ];
 

@@ -1,6 +1,6 @@
 .home {
   padding: 4rem 0;
-  background: linear-gradient(135deg, #e8f5e8 0%, #f0f8f0 100%);
+  background: white;
   min-height: 80vh;
   display: flex;
   align-items: center;
@@ -21,7 +21,7 @@
 }
 
 .hero-title {
-  font-size: 3.5rem;
+  font-size: 3rem;
   color: #2d5016;
   font-weight: bold;
   margin: 0 0 0.5rem 0;
