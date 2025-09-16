@@ -1,0 +1,120 @@
+.contact-us {
+  padding: 4rem 0;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.contact-header {
+  margin-bottom: 3rem;
+}
+
+.company-name {
+  font-size: 3rem;
+  color: #2d5016;
+  font-weight: bold;
+  margin: 0 0 0.5rem 0;
+  letter-spacing: 1px;
+}
+
+.company-subtitle {
+  font-size: 1.2rem;
+  color: #666;
+  margin: 0 0 2rem 0;
+  font-weight: 300;
+}
+
+.contact-info {
+  margin-bottom: 3rem;
+}
+
+.contact-line {
+  background: #f9f9f9;
+  padding: 1.5rem 2rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  color: #333;
+  transition: transform 0.3s ease;
+}
+
+.contact-line:hover {
+  transform: translateY(-2px);
+}
+
+.contact-line strong {
+  color: #2d5016;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.contact-button {
+  background-color: #2d5016;
+  color: white;
+  border: none;
+  padding: 1rem 3rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(45, 80, 22, 0.3);
+}
+
+.contact-button:hover {
+  background-color: #1e3610;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(45, 80, 22, 0.4);
+}
+
+.contact-button:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .contact-us {
+    padding: 3rem 0;
+  }
+
+  .container {
+    padding: 0 1rem;
+  }
+
+  .company-name {
+    font-size: 2.5rem;
+  }
+
+  .company-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .contact-line {
+    padding: 1.2rem 1.5rem;
+    font-size: 1rem;
+  }
+
+  .contact-button {
+    padding: 0.8rem 2.5rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .company-name {
+    font-size: 2rem;
+  }
+
+  .company-subtitle {
+    font-size: 1rem;
+  }
+
+  .contact-line {
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+}
