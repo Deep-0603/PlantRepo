@@ -1,0 +1,30 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer gear circle -->
+  <circle cx="100" cy="100" r="95" fill="#FF8C00" stroke="#D2691E" stroke-width="3"/>
+  
+  <!-- Gear teeth -->
+  <g fill="#FF8C00">
+    <rect x="95" y="5" width="10" height="15" rx="2"/>
+    <rect x="95" y="180" width="10" height="15" rx="2"/>
+    <rect x="5" y="95" width="15" height="10" rx="2"/>
+    <rect x="180" y="95" width="15" height="10" rx="2"/>
+    <rect x="25" y="25" width="10" height="15" rx="2" transform="rotate(45 30 32.5)"/>
+    <rect x="165" y="25" width="10" height="15" rx="2" transform="rotate(-45 170 32.5)"/>
+    <rect x="25" y="160" width="10" height="15" rx="2" transform="rotate(-45 30 167.5)"/>
+    <rect x="165" y="160" width="10" height="15" rx="2" transform="rotate(45 170 167.5)"/>
+  </g>
+  
+  <!-- Inner white circle -->
+  <circle cx="100" cy="100" r="70" fill="white" stroke="#FF8C00" stroke-width="2"/>
+  
+  <!-- AICTE text -->
+  <text x="100" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#8B0000">AICTE</text>
+  
+  <!-- Hindi text -->
+  <text x="100" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">अखिल भारतीय तकनीकी</text>
+  <text x="100" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#666">शिक्षा परिषद</text>
+  
+  <!-- Central emblem -->
+  <circle cx="100" cy="140" r="15" fill="#0066CC"/>
+  <path d="M100 130 L105 140 L100 150 L95 140 Z" fill="white"/>
+</svg> 

@@ -1,0 +1,46 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky background -->
+  <rect width="200" height="120" fill="#E6F3FF"/>
+  
+  <!-- Ground -->
+  <rect y="180" width="200" height="20" fill="#90EE90"/>
+  
+  <!-- Building base/steps -->
+  <rect x="20" y="160" width="160" height="20" fill="#D3D3D3"/>
+  <rect x="30" y="150" width="140" height="10" fill="#C0C0C0"/>
+  
+  <!-- Main building structure -->
+  <rect x="40" y="80" width="120" height="70" fill="#F5F5F5" stroke="#999" stroke-width="1"/>
+  
+  <!-- Columns -->
+  <rect x="50" y="80" width="8" height="70" fill="white" stroke="#CCC" stroke-width="1"/>
+  <rect x="70" y="80" width="8" height="70" fill="white" stroke="#CCC" stroke-width="1"/>
+  <rect x="90" y="80" width="8" height="70" fill="white" stroke="#CCC" stroke-width="1"/>
+  <rect x="110" y="80" width="8" height="70" fill="white" stroke="#CCC" stroke-width="1"/>
+  <rect x="130" y="80" width="8" height="70" fill="white" stroke="#CCC" stroke-width="1"/>
+  
+  <!-- Roof/Pediment -->
+  <polygon points="35,80 100,50 165,80" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+  
+  <!-- Central entrance -->
+  <rect x="85" y="120" width="30" height="30" fill="#8B4513" stroke="#654321" stroke-width="1"/>
+  
+  <!-- Door -->
+  <rect x="90" y="125" width="20" height="25" fill="#654321"/>
+  <circle cx="105" cy="137" r="1" fill="#FFD700"/>
+  
+  <!-- Windows -->
+  <rect x="55" y="95" width="12" height="15" fill="#87CEEB" stroke="#4682B4" stroke-width="1"/>
+  <rect x="75" y="95" width="12" height="15" fill="#87CEEB" stroke="#4682B4" stroke-width="1"/>
+  <rect x="120" y="95" width="12" height="15" fill="#87CEEB" stroke="#4682B4" stroke-width="1"/>
+  <rect x="140" y="95" width="12" height="15" fill="#87CEEB" stroke="#4682B4" stroke-width="1"/>
+  
+  <!-- Flag pole -->
+  <rect x="180" y="30" width="2" height="50" fill="#8B4513"/>
+  <rect x="182" y="30" width="15" height="10" fill="#FF6B35"/>
+  <rect x="182" y="40" width="15" height="10" fill="#F7931E"/>
+  <rect x="182" y="50" width="15" height="10" fill="#228B22"/>
+  
+  <!-- Title -->
+  <text x="100" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2F4F4F">Government Office</text>
+</svg> 
