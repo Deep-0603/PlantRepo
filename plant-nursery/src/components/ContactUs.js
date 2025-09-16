@@ -6,7 +6,7 @@ const ContactUs = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleWhatsAppClick = () => {
-    const phoneNumber = '9516025199'; // Remove + and spaces
+    const phoneNumber = '9811114365'; // Remove + and spaces
     const message = encodeURIComponent('Hello! I am interested in your plants and nursery services. Could you please provide more information?');
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
     window.open(whatsappUrl, '_blank');
@@ -24,13 +24,17 @@ const ContactUs = () => {
     <section className="contact-us" id="contact">
       <div className="container">
         <div className="contact-header">
-          <h2 className="company-name">SUGANDHA</h2>
-          <p className="company-subtitle">Farms and Nursery</p>
+          <div className="logo-container">
+            <div className="company-info">
+              <h2 className="company-name">SUGANDHA</h2>
+              <p className="company-subtitle">Farms and Nursery</p>
+            </div>
+          </div>
         </div>
         <div className="contact-info">
           <div className="contact-box">
-            <p><strong>Address:</strong> Maan Enclave Villl, near Gurukul, Khera Khurd-110082, Delhi </p>
-            <p><strong>Phone:</strong> +91 9876543210</p>
+            <p><strong>Address:</strong> <a href="https://maps.app.goo.gl/tcFsyiw3wVHW85K6A" target="_blank" rel="noopener noreferrer" className="address-link">Maan Enclave Villl, near Gurukul, Khera Khurd-110082, Delhi</a></p>
+            <p><strong>Phone:</strong> +91 9811114365</p>
             <p><strong>Email:</strong> info@sugandhafarms.com</p>
           </div>
         </div>

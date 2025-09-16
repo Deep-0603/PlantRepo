@@ -4,7 +4,7 @@ import './FlashCards.css';
 
 // Import local category images
 import indoorPlantsImg from '../asset/images/categories/indoor-plants.jpg';
-import floweringPlantsImg from '../asset/images/categories/flowering-plants.jpg';
+import floweringPlantsImg from '../asset/images/categories/flowering-plant.jpg';
 import winterPlantsImg from '../asset/images/categories/winter-plants.jpg';
 import summerPlantsImg from '../asset/images/categories/summer-plants.jpg';
 import rainyPlantsImg from '../asset/images/categories/rainy-plants.jpg';

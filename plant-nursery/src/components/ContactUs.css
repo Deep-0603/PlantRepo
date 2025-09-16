@@ -14,6 +14,17 @@
   margin-bottom: 3rem;
 }
 
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.company-info {
+  text-align:center;
+}
+
 .company-name {
   font-size: 3rem;
   color: #2d5016;
@@ -52,6 +63,19 @@
   color: #2d5016;
   font-weight: bold;
   margin-right: 0.5rem;
+}
+
+.address-link {
+  color: #2d5016;
+  text-decoration: none;
+  border-bottom: 1px dotted #2d5016;
+  transition: all 0.3s ease;
+}
+
+.address-link:hover {
+  color: #1e3610;
+  border-bottom: 1px solid #1e3610;
+  text-decoration: none;
 }
 
 
@@ -141,6 +165,19 @@
 
   .container {
     padding: 0 1rem;
+  }
+
+  .logo-container {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .company-info {
+    text-align: center;
+  }
+
+  .logo-emoji {
+    font-size: 2.5rem;
   }
 
   .company-name {
