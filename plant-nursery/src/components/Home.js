@@ -1,19 +1,40 @@
 import React from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import './Home.css';
 
 const Home = () => {
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const handleExploreClick = () => {
+    if (location.pathname === '/') {
+      // If on home page, scroll to plants section
+      const plantsSection = document.getElementById('plants');
+      if (plantsSection) {
+        plantsSection.scrollIntoView({ behavior: 'smooth' });
+      }
+    } else {
+      // If on a different page, navigate to home page and then scroll
+      navigate('/', { replace: true });
+      setTimeout(() => {
+        const plantsSection = document.getElementById('plants');
+        if (plantsSection) {
+          plantsSection.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
+    }
+  };
+
   return (
     <section className="home" id="home">
       <div className="hero-container">
         <div className="hero-content">
-          <h1 className="hero-title">Welcome to Sugandha</h1>
-          <p className="hero-subtitle">Farms and Nursery</p>
+          <h1 className="hero-title">Bringing Nature Home,</h1>
+          <p className="hero-subtitle">One Plant at a Time</p>
           <p className="hero-description">
-            Your trusted partner in bringing nature's beauty to your home and garden.
-            We provide premium quality plants, expert care advice, and everything you need
-            to create your perfect green space.
+          At Sugandha Farms and Nursery, we nurture nature with love and care. From indoor greens vibrant flowering plants, we bring freshness, beauty, and tranquility to your home and office.
           </p>
-          <button className="hero-button">Explore Our Plants</button>
+          <button className="hero-button" onClick={handleExploreClick}>Explore Our Plants</button>
         </div>
         <div className="hero-images">
           <div className="image-column-left">

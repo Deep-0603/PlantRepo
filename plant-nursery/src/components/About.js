@@ -6,7 +6,7 @@ const About = () => {
     <section className="about" id="about">
       <div className="container">
         <div className="about-content">
-          <h2 className="section-heading">About Sugandha Farms</h2>
+          <h2 className="section-heading">About Us</h2>
           <p className="about-description">
             With over 15 years of experience in the nursery business, Sugandha Farms and Nursery
             has been dedicated to providing the highest quality plants and exceptional customer service.

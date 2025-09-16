@@ -1,0 +1,139 @@
+.plant-category {
+  padding: 4rem 0;
+  background-color: white;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.category-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.category-title {
+  font-size: 3rem;
+  color: #2d5016;
+  font-weight: bold;
+  margin: 0 0 1rem 0;
+}
+
+.category-description {
+  font-size: 1.2rem;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.plants-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+.plant-card {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+  max-width: 320px;
+  border: 1px solid #f0f0f0;
+}
+
+.plant-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.plant-image {
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+}
+
+.plant-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.plant-card:hover .plant-image img {
+  transform: scale(1.05);
+}
+
+.plant-info {
+  padding: 1.5rem;
+}
+
+.plant-name {
+  color: #2d5016;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 0 0 0.8rem 0;
+  line-height: 1.3;
+}
+
+.plant-description {
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .plant-category {
+    padding: 3rem 0;
+  }
+
+  .container {
+    padding: 0 1rem;
+  }
+
+  .category-header {
+    margin-bottom: 3rem;
+  }
+
+  .category-title {
+    font-size: 2.5rem;
+  }
+
+  .category-description {
+    font-size: 1.1rem;
+  }
+
+  .plants-grid {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .plant-info {
+    padding: 1.2rem;
+  }
+
+  .plant-name {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .category-title {
+    font-size: 2rem;
+  }
+
+  .plants-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .plant-card {
+    max-width: none;
+  }
+}
