@@ -1,12 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './ContactUs.css';
+import QueryModal from './QueryModal';
 
 const ContactUs = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   const handleWhatsAppClick = () => {
     const phoneNumber = '9516025199'; // Remove + and spaces
     const message = encodeURIComponent('Hello! I am interested in your plants and nursery services. Could you please provide more information?');
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
     window.open(whatsappUrl, '_blank');
+  };
+
+  const handleShareQueryClick = () => {
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
   };
 
   return (
@@ -38,9 +49,12 @@ const ContactUs = () => {
             </svg>
             <span>Get in Touch</span>
           </button>
-          <button className="share-query-button">Share Query</button>
+          <button className="share-query-button" onClick={handleShareQueryClick}>
+            Share Query
+          </button>
         </div>
         
+        <QueryModal isOpen={isModalOpen} onClose={handleCloseModal} />
       </div>
     </section>
   );
