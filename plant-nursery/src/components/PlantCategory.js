@@ -9,6 +9,7 @@ import pothosImg from '../asset/images/plants/indoor/pothos.jpg';
 import peaceLilyImg from '../asset/images/plants/indoor/peace-lily.jpg';
 import rubberPlantImg from '../asset/images/plants/indoor/rubber-plant.jpg';
 import zzPlantImg from '../asset/images/plants/indoor/zz-plant.jpg';
+import succulentImg from '../asset/images/plants/indoor/succulent.jpg';
 
 // Import flowering plant images
 import roseBushImg from '../asset/images/plants/flowering/rose-bush.jpg';
@@ -29,30 +30,39 @@ import bougainvilleaImg from '../asset/images/plants/summer/bougainvillea.jpg';
 import zinniaImg from '../asset/images/plants/summer/zinnia.jpg';
 import portulacaImg from '../asset/images/plants/summer/portulaca.jpg';
 import ixoraImg from '../asset/images/plants/summer/ixora.jpg';
+import cosmoImg from '../asset/images/plants/summer/cosmo.jpg';
+import jasmineImg from '../asset/images/plants/summer/jasmine.jpg';
 
 // Import rainy plant images
 import begoniaImg from '../asset/images/plants/rainy/begonia.jpg';
 import caladiumImg from '../asset/images/plants/rainy/caladium.jpg';
 import impatiensImg from '../asset/images/plants/rainy/impatiens.jpg';
 import coleusImg from '../asset/images/plants/rainy/coleus.jpg';
+import lotusImg from '../asset/images/plants/rainy/Lotus.jpg';
+import rainyHibiscusImg from '../asset/images/plants/rainy/Hibiscus.jpg';
 
 // Import outdoor plant images
 import bonsaiImg from '../asset/images/plants/outdoor/bonsai.jpg';
 import palmTreeImg from '../asset/images/plants/outdoor/palm-tree.jpg';
 import crotonImg from '../asset/images/plants/outdoor/croton.jpg';
 import ficusImg from '../asset/images/plants/outdoor/ficus.jpg';
+import climberImg from '../asset/images/plants/outdoor/Climber.jpg';
+import hedgeImg from '../asset/images/plants/outdoor/Hedge.jpg';
 
 // Import tabletop plant images
 import miniCactusImg from '../asset/images/plants/tabletop/mini-cactus.jpg';
 import smallFernImg from '../asset/images/plants/tabletop/small-fern.jpg';
 import airPlantImg from '../asset/images/plants/tabletop/air-plant.jpg';
 import miniSucculentImg from '../asset/images/plants/tabletop/mini-succulent.jpg';
+import jadeImg from '../asset/images/plants/tabletop/jade.jpg';
 
 // Import grass images
 import bermudaGrassImg from '../asset/images/plants/grass/bermuda-grass.jpg';
 import zoysiaGrassImg from '../asset/images/plants/grass/zoysia-grass.jpg';
 import stAugustineGrassImg from '../asset/images/plants/grass/st-augustine-grass.jpg';
 import ornamentalGrassImg from '../asset/images/plants/grass/ornamental-grass.jpg';
+import mexicanGrassImg from '../asset/images/plants/grass/Mexican Grass.jpg';
+import nilgiriImg from '../asset/images/plants/grass/Nilgiri.jpg';
 
 const plantsData = {
   'indoor-plants': [
@@ -91,6 +101,12 @@ const plantsData = {
       name: 'ZZ Plant',
       image: zzPlantImg,
       description: 'Extremely drought tolerant, perfect for busy lifestyles.'
+    },
+    {
+      id: 49,
+      name: 'Succulent',
+      image: succulentImg,
+      description: 'Low maintenance plant perfect for indoor decoration.'
     }
   ],
   'flowering-plants': [
@@ -181,6 +197,18 @@ const plantsData = {
       name: 'Ixora',
       image: ixoraImg,
       description: 'Tropical shrub with clusters of bright flowers.'
+    },
+    {
+      id: 50,
+      name: 'Cosmo',
+      image: cosmoImg,
+      description: 'Beautiful annual flower that blooms throughout summer.'
+    },
+    {
+      id: 51,
+      name: 'Jasmine',
+      image: jasmineImg,
+      description: 'Fragrant flowering plant perfect for summer gardens.'
     }
   ],
   'rainy-plants': [
@@ -207,6 +235,18 @@ const plantsData = {
       name: 'Coleus',
       image: coleusImg,
       description: 'Vibrant colored leaves, perfect for monsoon planting.'
+    },
+    {
+      id: 52,
+      name: 'Lotus',
+      image: lotusImg,
+      description: 'Sacred aquatic flower that thrives in monsoon season.'
+    },
+    {
+      id: 53,
+      name: 'Hibiscus',
+      image: rainyHibiscusImg,
+      description: 'Large tropical flowers perfect for rainy season blooming.'
     }
   ],
   'outdoor-plants': [
@@ -233,6 +273,18 @@ const plantsData = {
       name: 'Ficus',
       image: ficusImg,
       description: 'Large outdoor tree perfect for landscaping.'
+    },
+    {
+      id: 54,
+      name: 'Climber',
+      image: climberImg,
+      description: 'Climbing plants perfect for outdoor walls and trellises.'
+    },
+    {
+      id: 55,
+      name: 'Hedge',
+      image: hedgeImg,
+      description: 'Dense shrubs ideal for creating outdoor boundaries.'
     }
   ],
   'tabletop-plants': [
@@ -259,6 +311,12 @@ const plantsData = {
       name: 'Mini Succulent',
       image: miniSucculentImg,
       description: 'Small succulent arrangements for desktop decoration.'
+    },
+    {
+      id: 56,
+      name: 'Jade',
+      image: jadeImg,
+      description: 'Lucky plant perfect for tabletop decoration and Feng Shui.'
     }
   ],
   'grass': [
@@ -285,6 +343,18 @@ const plantsData = {
       name: 'Ornamental Grass',
       image: ornamentalGrassImg,
       description: 'Decorative grass varieties for landscape design.'
+    },
+    {
+      id: 57,
+      name: 'Mexican Grass',
+      image: mexicanGrassImg,
+      description: 'Vibrant grass variety perfect for landscaping.'
+    },
+    {
+      id: 58,
+      name: 'Nilgiri',
+      image: nilgiriImg,
+      description: 'Premium grass variety from the Nilgiri hills.'
     }
   ]
 };
